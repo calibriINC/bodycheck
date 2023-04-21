@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Welcome to Bodycheck, the mobile app that empowers you to take control of your health and well-being through data-driven self-experimentation. Our platform enables you to conduct self-experiments and track your progress to improve your health, optimize your performance, and discover new insights about yourself.">
+  <title>BODYCHECK</title>
+
+  <!-- Fav Icon -->
+  <link rel="icon" type="image/x-icon" href="assets/icon.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+  <!-- All CSS files -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="assets/css/progressbar.css">
+  <link rel="stylesheet" href="assets/css/meanmenu.min.css">
+  <link rel="stylesheet" href="assets/css/master.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body class="dark">
+  <!-- Cursor Animation -->
+  <div class="cursor1"></div>
+  <div class="cursor2"></div>
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="loading">
+      <div class="bar bar1"></div>
+      <div class="bar bar2"></div>
+      <div class="bar bar3"></div>
+      <div class="bar bar4"></div>
+      <div class="bar bar5"></div>
+      <div class="bar bar6"></div>
+      <div class="bar bar7"></div>
+      <div class="bar bar8"></div>
+    </div>
+  </div>
+
+
+  <!-- Scroll Smoother -->
+  <div class="has-smooth" id="has_smooth"></div>
+
+  <!-- Go Top Button -->
+  <button id="scroll_top" class="scroll-top"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <!-- Header area start -->
+  <header class="header__area-3">
+    <div class="header__inner-3">
+      <div class="header__logo-2">
+        <a href="index.html" class="logo-dark"><img src="assets/logo.png" alt="Site Logo" style="width:132px; height:30px"></a>
+        <a href="index.html" class="logo-light"><img src="assets/logo.png" alt="logo.png" style="width:132px; height:30px"></a>
+      </div>
+      <div class="header__nav-2">
+        <ul class="main-menu-3 menu-anim">
+        </ul>
+      </div>
+        <div class="header__nav-icon-3">     
+        <button id="open_offcanvas">
+         <img src="assets/menu_bar.png" alt="Menubar Icon" ></button> 
+      </div>
+    </div>
+  </header>
+  <!-- Offcanvas area start -->
+  <div class="offcanvas__area">
+    <div class="offcanvas__body">
+      <div class="offcanvas__left">
+        <div class="offcanvas__logo">
+          <a href="index.html"><img src="assets/logo.png"  width="220" height="50"></a>
+        </div>     
+        <div class="offcanvas__social">
+         
+        </div>
+        <div class="offcanvas__links">       
+        </div>
+      </div>
+      <div class="offcanvas__mid">
+        <div class="offcanvas__menu-wrapper">
+          <nav class="offcanvas__menu">
+            <ul class="menu-anim">       
+              <li><h3 style="font-family: Roboto; color:white; line-height: 1.5em;padding: 50px;">Unlock your full potential through data-driven self-experimentation<br></h3></li><br>
+              <li><a href="about.html" style="font-family:Bebas Neue " >About</a></li>
+              <li><a href="terms.html" style="font-family:Bebas Neue " >Terms of Use</a></li>
+              <li><a href="privacy.html" style="font-family:Bebas Neue " >Privacy Policy</a></li>
+              <li><a href="contact.html" style="font-family:Bebas Neue " >Contact</a></li>
+            </ul>
+          </nav>        
+      </div>
+      </div>
+      <div class="offcanvas__close">
+        <button type="button" id="close_offcanvas"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div id="smooth-wrapper">
+    <div id="smooth-content">
+      <main>
+
+   
+      
+        <section class="contact__area-6" style="  background-color: #0c0c0c">
+          <div class="container  pt-120 pb-110">
+
+            <div class="row bp-140">
+              <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+                <div class="sec-title-wrapper"><br><br>
+                  <h2 class="sec-title-2 animation__char_come">Send Us a Message</h2>
+                </div>
+              </div>
+              <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+                <div class="contact__text" style="font-family: Manrope; font-weight:400; line-height: 1.5em;">
+                  <p>We're excited to hear from you!</p>
+                </div>
+              </div>
+            </div>
+            <div class="row contact__btm pt-140 pb-140">
+              <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2">
+             
+              </div>
+              <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-7 pt-140 ">
+                <div class="contact__form">
+                  <form  action="https://formspree.io/f/xzbqvpjn"
+                  method="POST">
+                    <div class="row g-3">
+                      <div class="col-xxl-6 col-xl-6 col-12">
+                        <input type="text" name="name" placeholder="Name *">
+                      </div>
+                      <div class="col-xxl-6 col-xl-6 col-12">
+                        <input type="email" name="email" placeholder="Email *">
+                      </div>
+                    </div>
+                    <div class="row g-3">
+                      <div class="col-xxl-6 col-xl-6 col-12">
+                        <input type="tel" name="phone" placeholder="Phone">
+                      </div>
+                      <div class="col-xxl-6 col-xl-6 col-12">
+                        <input type="text" name="subject" placeholder="Subject *">
+                      </div>
+                    </div>
+                    <div class="row g-3">
+                      <div class="col-12">
+                        <textarea name="message" placeholder="Messages *"></textarea>
+                      </div>
+                    </div>
+                    <div class="row g-3">
+                      <div class="col-12">
+                        <div class="btn_wrapper">
+                          <button class="wc-btn-primary btn-hover btn-item"><span></span> Send <i
+                              class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      
+
+      </main>
+
+
+
+      <footer class="footer__area-3">
+        <div class="footer__top-3">
+       
+        <div class="footer__btm-3">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xxl-4 col-xl-4 col-lg-4">
+                <div class="footer__copyright-3">
+                  <p><a href="index.html"><img src="logo.png" alt="Site Logo" style="width:132px; height:30px"></a>
+                  </p>
+                </div>
+              </div>
+              <div class="col-xxl-8 col-xl-8 col-lg-8">
+                <div class="footer__nav-2">
+                  <ul class="footer-menu-2 menu-anim">
+
+                    <li><a href="terms.html">Terms of Use</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+ 
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+
+    </div>
+  </div>
+
+
+
+  <!-- All JS files -->
+  <script src="assets/js/jquery-3.6.0.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/swiper-bundle.min.js"></script>
+  <script src="assets/js/counter.js"></script>
+  <script src="assets/js/gsap.min.js"></script>
+  <script src="assets/js/ScrollTrigger.min.js"></script>
+  <script src="assets/js/ScrollToPlugin.min.js"></script>
+  <script src="assets/js/ScrollSmoother.min.js"></script>
+  <script src="assets/js/SplitText.min.js"></script>
+  <script src="assets/js/chroma.min.js"></script>
+  <script src="assets/js/mixitup.min.js"></script>
+  <script src="assets/js/vanilla-tilt.js"></script>
+  <script src="assets/js/jquery.meanmenu.min.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
