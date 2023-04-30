@@ -1803,7 +1803,7 @@ img {
 .dark .contact__form input::placeholder,
 .dark .contact__form textarea::placeholder {
   color: var(--white);
-  border-color: var(--bg-line);
+  border-color: grey;
 }
 .dark .contact__form textarea:focus,
 .dark .contact__form input:focus {
